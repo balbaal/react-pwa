@@ -8,11 +8,9 @@ class Login extends React.Component {
   render() {
     return (
       <div className="max-w-screen-sm mx-auto px-5 h-screen">
-        <section className="flex flex-col items-center justify-center text-center mb-5">
-          <img src={Logo} width={250} />
-          <h1 className="text-gray-700 text-2xl leading-loose">
-            Authenticator
-          </h1>
+        <section className="flex flex-col items-center justify-center text-center mb-8 mt-3">
+          <img src="/undraw_Security_on_ff2u.png" width={200} />
+          <h1 className="text-gray-700 text-2xl leading-loose">Impact Terra</h1>
           <p className="text-gray-500 font-light text-xs leading-tight">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

@@ -6,7 +6,7 @@ import { InputText, Button } from "elements";
 const LoginForm = () => {
   return (
     <>
-      <div className="mb-3">
+      <div className="mb-5">
         <InputText
           className="w-full"
           label="EMAIL"
@@ -17,7 +17,7 @@ const LoginForm = () => {
         />
       </div>
 
-      <div className="mb-10">
+      <div className="mb-5">
         <InputText
           className="w-full"
           label="PASSWORD"
@@ -28,7 +28,7 @@ const LoginForm = () => {
         />
       </div>
 
-      <div className="mb-3">
+      <div>
         <Button title="Login" className="w-full" />
       </div>
     </>

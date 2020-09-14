@@ -2,13 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const InputText = (props) => {
-  const { value, placeholder, name, type, className, label } = props;
+  const { value, placeholder, name, type, className, label, useLabel } = props;
 
   return (
     <>
-      <label className="text-sm font-semibold text-gray-500 mb-1 block">
-        {label}
-      </label>
+      {useLabel ? (
+        <label className="text-sm font-semibold text-gray-500 mb-1 block">
+          {label}
+        </label>
+      ) : null}
       <input
         type={type}
         name={name}
@@ -30,6 +32,7 @@ InputText.propTypes = {
   name: PropTypes.string,
   type: PropTypes.string,
   className: PropTypes.string,
+  useLabel: PropTypes.bool,
 };
 
 export default InputText;
