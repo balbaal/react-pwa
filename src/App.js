@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './tailwind.output.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./tailwind.output.css";
+import Routing from "configs/routing";
 
 function App() {
-  return (
-    <div className="container mx-auto">app pages</div>
-  );
+  return <Routing />;
 }
 
 export default App;
