@@ -1,7 +1,7 @@
 import React from "react";
 
 // Components
-import { InputText } from "elements";
+import { InputText, Button } from "elements";
 
 const LoginForm = () => {
   return (
@@ -17,7 +17,7 @@ const LoginForm = () => {
         />
       </div>
 
-      <div className="mb-3">
+      <div className="mb-10">
         <InputText
           className="w-full"
           label="PASSWORD"
@@ -26,6 +26,10 @@ const LoginForm = () => {
           type="text"
           name="password"
         />
+      </div>
+
+      <div className="mb-3">
+        <Button title="Login" className="w-full" />
       </div>
     </>
   );

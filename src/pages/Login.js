@@ -7,20 +7,27 @@ import { LoginForm } from "parts";
 class Login extends React.Component {
   render() {
     return (
-      <div className="max-w-screen-sm mx-auto px-10">
+      <div className="max-w-screen-sm mx-auto px-5 h-screen">
         <section className="flex flex-col items-center justify-center text-center mb-5">
           <img src={Logo} width={250} />
-          <h1 className="text-gray-500 font-light text-2xl leading-loose">
+          <h1 className="text-gray-700 text-2xl leading-loose">
             Authenticator
           </h1>
           <p className="text-gray-500 font-light text-xs leading-tight">
-            Protect your account in just a few minutes by reviewing security
-            settings and activity.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer
           </p>
         </section>
         <section>
           <LoginForm />
         </section>
+        <h6
+          style={{ bottom: "10px", left: "50%", transform: "translateX(-50%)" }}
+          className="text-gray-400 text-xs text-center absolute"
+        >
+          Powered by <span className="text-gray-500 font-bold">React</span>
+        </h6>
       </div>
     );
   }
