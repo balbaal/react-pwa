@@ -19,7 +19,7 @@ const InputText = (props) => {
         onChange={props.onChange}
         className={[
           className,
-          "px-4 py-2 bg-green-100 text-sm text-gray-700 rounded border-none outline-none",
+          "px-4 py-2 bg-green-100 text-sm text-gray-400 focus:text-gray-700 rounded border-none outline-none",
         ].join(" ")}
       />
     </>
