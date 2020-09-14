@@ -16,7 +16,7 @@ const BottomNav = (props) => {
   };
 
   return (
-    <div className="flex items-center justify-around border border-gray-300 rounded py-2">
+    <div className="flex items-center justify-around border border-gray-300 rounded py-2 bg-white shadow-inner">
       <ButtonIcon
         icon={<i className="fa fa-home fa-lg"></i>}
         title="Home"
