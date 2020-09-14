@@ -2,9 +2,6 @@ import React from "react";
 
 const ButtonIcon = (props) => {
   const { icon, title, isActive } = props;
-
-  console.log('isActive :>> ', isActive);
-
   const classNames = "flex flex-col items-center justify-center text-gray-600";
 
   return (
