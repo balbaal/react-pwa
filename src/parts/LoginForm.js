@@ -1,14 +1,18 @@
 import React, { useState } from "react";
+import { withRouter } from "react-router-dom";
 
 // Components
 import { InputText, Button } from "elements";
 
-const LoginForm = () => {
+const LoginForm = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const __handleLogin = () => {
-    console.log("submit login");
+    console.log("email :>> ", email);
+    console.log("password :>> ", password);
+
+    props.history.push("/");
   };
 
   return (
@@ -44,4 +48,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default withRouter(LoginForm);
