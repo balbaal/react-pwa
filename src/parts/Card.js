@@ -13,14 +13,14 @@ const Card = (props) => {
         />
         <a
           className="bg-white rounded px-2 py-1 text-gray-500 absolute cursor-pointer"
-          style={{ fontSize: 9, right: 5, bottom: 5 }}
+          style={{ fontSize: 9, left: 5, bottom: 5 }}
         >
-          Read more
+          5 hrs ago
         </a>
       </div>
       <div className="py-2">
         <h3 className="text-gray-800 text-lg font-semibold">Armo Compound</h3>
-        <h4 className="text-gray-500 text-sm">Maw Maw Farming Supplies</h4>
+        <h4 className="text-gray-500 text-xs">Maw Maw Farming Supplies</h4>
         <h4 className="text-green-800 text-sm font-semibold">300000 MMK</h4>
       </div>
     </div>

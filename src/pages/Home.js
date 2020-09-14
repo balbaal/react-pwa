@@ -1,5 +1,5 @@
 import React from "react";
-import { BottomNav, Header, Card } from "parts";
+import { BottomNav, Header, Card, CardArticle } from "parts";
 
 class Home extends React.Component {
   render() {
@@ -13,6 +13,7 @@ class Home extends React.Component {
           <div className="grid grid-cols-2 gap-4">
             <Card className="col-span-1" />
             <Card className="col-span-1" />
+            <CardArticle className="col-span-2" />
           </div>
         </section>
 
