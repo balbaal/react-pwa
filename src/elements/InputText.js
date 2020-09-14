@@ -33,6 +33,7 @@ InputText.propTypes = {
   type: PropTypes.string,
   className: PropTypes.string,
   useLabel: PropTypes.bool,
+  onChange: PropTypes.func,
 };
 
 export default InputText;

@@ -6,6 +6,7 @@ const Button = (props) => {
 
   return (
     <button
+      onClick={props.onClick}
       type="submit"
       className={[
         "text-white bg-green-700 px-4 py-2 outline-none border-none focus:outline-none focus:bg-green-800 font-semibold rounded-full",
