@@ -1,8 +1,15 @@
 import React from "react";
+import { BottomNav } from "parts";
 
 class Home extends React.Component {
   render() {
-    return <h1>Home Page</h1>;
+    return (
+      <div className="max-w-screen-sm mx-auto">
+        <section>
+          <BottomNav />
+        </section>
+      </div>
+    );
   }
 }
 
