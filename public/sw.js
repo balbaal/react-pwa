@@ -62,6 +62,7 @@ self.addEventListener("fetch", (event) => {
         .catch((error) => {
           // TODO 6 - Respond with custom offline page
           console.log("something wrong when request files");
+          window.location.reload();
         })
     );
   }
