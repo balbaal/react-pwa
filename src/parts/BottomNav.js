@@ -16,8 +16,6 @@ const BottomNav = (props) => {
     }
   };
 
-  console.log("props :>> ", props);
-
   return (
     <div className="flex items-center justify-between px-3 pb-1 pt-3 max-w-screen-sm mx-auto">
       <ButtonIcon
