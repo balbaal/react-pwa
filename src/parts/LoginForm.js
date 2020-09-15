@@ -14,7 +14,7 @@ const LoginForm = (props) => {
 
     if (!email || !password) return;
 
-    props.history.push("/");
+    props.history.push("/home");
   };
 
   return (

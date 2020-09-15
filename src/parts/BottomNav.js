@@ -21,8 +21,8 @@ const BottomNav = (props) => {
       <ButtonIcon
         icon={<i className="fa fa-home fa-lg"></i>}
         title="Home"
-        isActive={checkingCurrentPage("/")}
-        onClick={() => push("/")}
+        isActive={checkingCurrentPage("/home")}
+        onClick={() => push("/home")}
       />
       <ButtonIcon
         icon={<i className="fa fa-plus-circle fa-lg"></i>}
