@@ -13,7 +13,7 @@ const filesToCache = [
 
   "/static/css/main.91d744ea.chunk.css",
   "/static/js/2.aebce967.chunk.js",
-  "/static/js/main.e79e7d66.chunk.js",
+  "/static/js/main.e44c8dd1.chunk.js",
   "/static/js/runtime-main.9957adfd.js",
 
   "/undraw_Security_on_ff2u.png",
