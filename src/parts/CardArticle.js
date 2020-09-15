@@ -21,6 +21,7 @@ const CardArticle = (props) => {
           grouped and their produce or waste marketed to larger buyers
         </h4>
         <a
+          href="#"
           className="bg-green-700 rounded px-2 py-1 text-white absolute cursor-pointer"
           style={{ fontSize: 9, right: 5, bottom: 5 }}
         >

@@ -9,9 +9,10 @@ const Card = (props) => {
         <img
           className="object-cover h-25 w-full rounded"
           src="/_DSC2910.jpeg"
-          alt=""
+          alt="img-card-sell"
         />
         <a
+          href="#"
           className="bg-white rounded px-2 py-1 text-gray-500 absolute cursor-pointer"
           style={{ fontSize: 9, left: 5, bottom: 5 }}
         >
