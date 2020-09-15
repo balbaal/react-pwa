@@ -12,7 +12,13 @@ const LoginForm = (props) => {
     console.log("email :>> ", email);
     console.log("password :>> ", password);
 
-    if (!email || !password) return;
+    if (!email || !password) {
+      return;
+    } else if (
+      !(email === "test@impactterra.com" && Number(password) === 123)
+    ) {
+      return;
+    }
 
     props.history.push("/home");
   };
