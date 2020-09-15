@@ -2,18 +2,11 @@ console.log("sw from public");
 
 const filesToCache = [
   "/",
-  "/home",
-  "/sell",
-  "/activity",
   "/index.html",
   "/static/js/bundle.js",
   "static/js/1.chunk.js",
   "/static/js/0.chunk.js",
   "/static/js/main.chunk.js",
-
-  // "/static/css/main.91d744ea.chunk.css",
-  // "/static/js/2.0b2f3208.chunk.js",
-  // "/static/js/main.72de4744.chunk.js",
 
   "/undraw_Security_on_ff2u.png",
   "/font-awesome/css/font-awesome.min.css",
@@ -67,20 +60,20 @@ self.addEventListener("fetch", (event) => {
 });
 
 // remove old cached assets
-self.addEventListener("activate", (event) => {
-  console.log("Activating new service worker...");
+// self.addEventListener("activate", (event) => {
+//   console.log("Activating new service worker...");
 
-  const cacheAllowlist = [staticCacheName];
+//   const cacheAllowlist = [staticCacheName];
 
-  event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheAllowlist.indexOf(cacheName) === -1) {
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    })
-  );
-});
+//   event.waitUntil(
+//     caches.keys().then((cacheNames) => {
+//       return Promise.all(
+//         cacheNames.map((cacheName) => {
+//           if (cacheAllowlist.indexOf(cacheName) === -1) {
+//             return caches.delete(cacheName);
+//           }
+//         })
+//       );
+//     })
+//   );
+// });
