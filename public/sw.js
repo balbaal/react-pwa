@@ -1,3 +1,5 @@
+import { precacheAndRoute } from "workbox-precaching";
+
 console.log("sw from public");
 
 const filesToCache = [
@@ -28,6 +30,8 @@ const filesToCache = [
 ];
 
 const staticCacheName = "react-sw-gp-1";
+
+precacheAndRoute(self.__WB_MANIFEST);
 
 // install service worker
 // storing assets to cache
@@ -62,7 +66,6 @@ self.addEventListener("fetch", (event) => {
         .catch((error) => {
           // TODO 6 - Respond with custom offline page
           console.log("something wrong when request files");
-          window.location.reload();
         })
     );
   }
