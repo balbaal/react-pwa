@@ -6,7 +6,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ cd react-pwa
 $ npm install
-$ npm run start
+$ npm run start //running on port 3000
 ```
 
 ### Dummy Auth
