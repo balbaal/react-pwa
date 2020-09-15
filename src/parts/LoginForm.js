@@ -12,6 +12,8 @@ const LoginForm = (props) => {
     console.log("email :>> ", email);
     console.log("password :>> ", password);
 
+    if (!email || !password) return;
+
     props.history.push("/");
   };
 
