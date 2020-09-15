@@ -2,11 +2,19 @@ console.log("sw from public");
 
 const filesToCache = [
   "/",
+  "/home",
+  "/activity",
+  "/sell",
   "/index.html",
-  "/static/js/bundle.js",
-  "static/js/1.chunk.js",
-  "/static/js/0.chunk.js",
-  "/static/js/main.chunk.js",
+  // "/static/js/bundle.js",
+  // "static/js/1.chunk.js",
+  // "/static/js/0.chunk.js",
+  // "/static/js/main.chunk.js",
+
+  "/static/css/main.91d744ea.chunk.css",
+  "/static/js/2.aebce967.chunk.js",
+  "/static/js/main.e79e7d66.chunk.js",
+  "/static/js/runtime-main.9957adfd.js",
 
   "/undraw_Security_on_ff2u.png",
   "/font-awesome/css/font-awesome.min.css",
