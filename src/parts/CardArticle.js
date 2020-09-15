@@ -7,12 +7,12 @@ const CardArticle = (props) => {
     <div className={["flex", className].join(" ")}>
       <div style={{ width: 140, height: 120 }}>
         <img
-          className="object-cover h-full w-full rounded-tl-lg rounded-bl-lg"
+          className="object-cover h-full w-full rounded-tl rounded-bl"
           src="https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
           alt=""
         />
       </div>
-      <div className="py-2 flex flex-col justify-center pl-3 shadow w-full rounded-lg relative">
+      <div className="py-2 flex flex-col justify-center pl-3 shadow w-full rounded relative">
         <h3 className="text-gray-800 text-lg font-semibold">
           Asuransi Kesehatan Lengkap
         </h3>
