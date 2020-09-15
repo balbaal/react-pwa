@@ -1,4 +1,4 @@
-import { precacheAndRoute } from "workbox-precaching";
+const { precacheAndRoute } = require("workbox-precaching");
 
 console.log("sw from public");
 
